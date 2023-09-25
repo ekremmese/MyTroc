@@ -18,7 +18,7 @@ public MyTrocPage() {
     @FindBy(xpath = "//input[@id='email']")
     public WebElement email;
 
-    @FindBy(xpath = "//input[@id='passe']")
+    @FindBy(css = "input#password")
     public WebElement passe;
 
     @FindBy(xpath = "//div[@class='button valid-button']")
